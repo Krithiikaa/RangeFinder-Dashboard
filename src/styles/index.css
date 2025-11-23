@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply font-montserrat bg-bg; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0 !important; transition-duration: 0 !important; scroll-behavior: auto !important; }
+}
